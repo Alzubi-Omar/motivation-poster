@@ -13,7 +13,7 @@ Featuring Cristiano Ronaldo and the quote:
 ---
 
 ### 🖼️ Screenshot
-![Poster Preview](./images/screenshot.png)
+![Poster Preview](./images/screenshot.PNG)
 
 ---
 
