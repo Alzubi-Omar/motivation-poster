@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #000 60%, #111 100%);
+  display: block;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 6rem;
+  min-height: 100vh;
+}
+
+main {
+  display: block;
+  width: 100%;
+  height: calc(100vh - 6rem);
+  text-align: center;
+}
+
+.poster {
+  display: inline-block;
+  margin-top: 4%;
+  border: 6px solid #000;
+  background: linear-gradient(to bottom, #0a0a0a, #1b1b1b);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.15);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.poster-img {
+  width: 100%;
+  max-width: 450px;
+  border: 6px solid #fff;
+  border-radius: 4px;
+  background-color: #000;
+  display: block;
+  margin: 0 auto;
+}
+
+.poster-title {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  letter-spacing: 3px;
+  color: #f4d03f;
+  text-shadow: 0 0 6px rgba(255, 215, 0, 0.7),
+    0 0 15px rgba(255, 255, 0, 0.5);
+}
+
+.poster-quote {
+  font-family: 'Caveat', cursive;
+  font-size: 1.5rem;
+  margin-top: 0.6rem;
+  color: #e0e0e0;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+  letter-spacing: 0.5px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  background: transparent;
+  padding-bottom: 0.8rem;
+}
+
+.footer hr {
+  width: 90%;
+  height: 2px;
+  border: none;
+  background-color: #fff;
+  margin: 0 auto 1rem auto;
+  opacity: 0.8;
+}
+
+.footer-text {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.word {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+.imagine {
+  color: #f4d03f;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+
+.create {
+  color: #00bfff;
+  text-shadow: 0 0 10px rgba(0, 191, 255, 0.8);
+}
+
+.credit {
+  color: #ccc;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
