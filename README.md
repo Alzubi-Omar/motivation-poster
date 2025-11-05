@@ -7,6 +7,16 @@ Featuring Cristiano Ronaldo and the quote:
 
 ---
 
+### 🌐 Live Demo  
+👉 [View the Poster Here](https://alzubi-omar.github.io/motivation-poster/)  
+
+---
+
+### 🖼️ Screenshot
+![Poster Preview](./images/screenshot.png)
+
+---
+
 ### 🧱 Built With
 
 * **HTML5** (semantic elements)
@@ -29,9 +39,9 @@ Featuring Cristiano Ronaldo and the quote:
 index.html
 css/
  └── style.css
-assets/
- └── images/
+images/
      └── CR7.PNG
+     └── screenshot.PNG
 ```
 
 ---
